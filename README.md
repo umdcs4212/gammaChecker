@@ -26,6 +26,22 @@ For example,
 ```
 will produce an image that is 1920 x 1080 in size called gammaCheck.png
 
+The program also outputs the different grey values and gamma values for the bars within the image.
+```
+Level 0: 0, gamma=0
+Level 1: 32, gamma=0.333333
+Level 2: 64, gamma=0.5
+Level 3: 96, gamma=0.706695
+Level 4: 128, gamma=1
+Level 5: 160, gamma=1.47477
+Level 6: 181, gamma=1.99938
+Level 7: 192, gamma=2.40942
+Level 8: 224, gamma=5.19089
+Level 9: 255, gamma=177.099
+```
+
+![Gamma Check Sample Image](gammaCheck.png)
+
 
 # vcpkg - Generalized Build Instructions for Windows, macos and Linux
 
