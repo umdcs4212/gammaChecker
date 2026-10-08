@@ -14,6 +14,19 @@ cd buildVCPkg
 cmake --build .
 ```
 
+### How to Run
+
+The executable is genGammaImage.  It takes two arguments as width and
+height of the output gamma check image.
+
+For example, 
+
+```
+./genGammaImage 1920 1080
+```
+will produce an image that is 1920 x 1080 in size called gammaCheck.png
+
+
 # vcpkg - Generalized Build Instructions for Windows, macos and Linux
 
 Once you have some of the items above, it's time to make sure you've got vcpkg ready on your development machine.
