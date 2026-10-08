@@ -10,6 +10,8 @@ The project uses CMake and VCPkg to manage dependencies.
 ```
 cd <path/to/this source>
 cmake --preset=default
+cd buildVCPkg
+cmake --build .
 ```
 
 # vcpkg - Generalized Build Instructions for Windows, macos and Linux
